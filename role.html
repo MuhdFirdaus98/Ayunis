@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        a:link, a:visited /* button staff dan admin..............*/
+        {
+            background-color: #366cf4;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a:hover, a:active /* button staff dan admin..............*/
+        {
+            background-color: red;
+        }
+
+        .vertical-center /* Ayat "You Are :".....................*/
+        {
+            margin: 0;
+            position: absolute;
+            top: -50%;
+            left: 25%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+        .center /* button staff dan admin.......................*/
+        {
+            margin: 0;
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        body /* gambar background.................................*/
+        {
+        background-image: url('ayunis.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <div class="vertical-center">
+            <h2>You Are :</h2>
+        </div>
+        <a href="stafflogin.php" target="_blank">STAFF</a>
+        <a href="adminlogin.php" target="_blank">OWNER</a>
+    </div>
+</body>
+</html>
